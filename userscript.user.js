@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         r/PlaceTux Overlay
 // @namespace    http://tampermonkey.net/
-// @version      1.0.0
+// @version      1.0.1
 // @description  FLOSS forever!
 // @author       r/PlaceTux
-// @license      GPL 3.0
+// @license      GPL-3.0
 // @match        https://hot-potato.reddit.com/embed*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @grant        none
