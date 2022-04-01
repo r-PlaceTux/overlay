@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         r/PlaceTux Overlay
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/r-PlaceTux/Overlay
 // @version      1.0.1
 // @description  FLOSS forever!
 // @author       r/PlaceTux
