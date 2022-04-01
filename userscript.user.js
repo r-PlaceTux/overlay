@@ -4,10 +4,10 @@
 // @version      1.0.1
 // @description  FLOSS forever!
 // @author       r/PlaceTux
-// @license      GPL-3.0
 // @match        https://hot-potato.reddit.com/embed*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @grant        none
+// @license      GPL-3.0
 // ==/UserScript==
 if (window.top !== window.self) {
     window.addEventListener('load', () => {
