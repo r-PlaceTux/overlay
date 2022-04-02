@@ -14,7 +14,7 @@ if (window.top !== window.self) {
         document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0].appendChild(
             (function () {
                 const i = document.createElement("img");
-                i.src = "https://github.com/r-PlaceTux/Overlay/raw/main/tuxoverlay.png";
+                i.src = "https://r-placetux.github.io/Overlay/overlay.png";
                 i.style = "position: absolute;left: 0;top: 0;image-rendering: crisp-edges;width: 1000px;height: 1000px;";
                 console.log(i);
                 return i;

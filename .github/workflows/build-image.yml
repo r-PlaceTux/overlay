@@ -10,8 +10,6 @@ jobs:
     if: github.repository == 'r-PlaceTux/Overlay'
     runs-on: ubuntu-latest
     steps:
-      - name: list dir
-        run: 'tree /home/runner/work'
       - uses: actions/checkout@v2
         with:
           path: Overlay

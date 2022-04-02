@@ -20,4 +20,4 @@ for row in range(len(p)):
                 for i in range(len(p[row][tile])):
                     newImage[fix_pos(row)][fix_pos(tile)][i] = p[row][tile][i]
 
-plt.imsave("overlay_unexploded.png", newImage, dpi=100, format="png")
+plt.imsave("overlay_raw.png", newImage, dpi=100, format="png")
