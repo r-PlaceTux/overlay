@@ -2,8 +2,11 @@ A script to project the correct tux design on the [r/place canvas](https://new.r
 
 ## Installation
 We provide the overlay through a user script. For more information, check out this [Wikipedia page](https://wikipedia.org/wiki/Userscript).
-1. Install the [Violentmonkey](https://violentmonkey.github.io/) addon/extension for [Firefox](https://addons.mozilla.org/addon/violentmonkey) or [Chrome](https://chrome.google.com/webstore/detail/jinjaccalgkegednnccohejagnlnfdag)
-2. Install [the user script](https://greasyfork.org/scripts/442512/code/userscript.user.js)
+1. Install the [Violentmonkey](https://violentmonkey.github.io/) addon/extension
+    - [Firefox-based](https://addons.mozilla.org/addon/violentmonkey)
+    - [Chromium-based](https://chrome.google.com/webstore/detail/jinjaccalgkegednnccohejagnlnfdag) (Opera extension for [CWS compatibility](https://addons.opera.com/extensions/details/install-chrome-extensions/))
+    - [Edge](https://microsoftedge.microsoft.com/addons/detail/violentmonkey/eeagobfjdenkkddmbclomhiblgggliao)
+3. Install [the user script](https://greasyfork.org/scripts/442512/code/userscript.user.js)
 
 ## Notes
 ### Blurry Overlay
