@@ -7,12 +7,12 @@ on:
 
 jobs:
   docs:
-    if: github.repository == 'r-PlaceTux/Overlay'
+    if: github.repository == 'r-PlaceTux/overlay'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
-          path: Overlay
+          path: overlay
       - uses: actions/setup-python@v2
         with:
           python-version: '3.10'
@@ -23,12 +23,12 @@ jobs:
           poetry-version: '1.1.12'
       - name: explode image
         run: poetry install && poetry run ./explode_overlay.py
-        working-directory: ./Overlay
+        working-directory: ./overlay
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./Overlay/out/
+          publish_dir: ./overlay/out/
           keep_files: true
           full_commit_message: deploy image
