@@ -9,6 +9,9 @@ We provide the overlay through a user script. For more information, check out th
 3. Install [the user script](https://greasyfork.org/scripts/442512/code/userscript.user.js)
 
 ## Notes
+### Incorrect Overlay
+Perform a hard refresh by doing `CTRL` + `SHIFT` + `R`.
+
 ### Blurry Overlay
 If the overlay looks blurry for you, use [this fix](https://greasyfork.org/scripts/442555).
 
