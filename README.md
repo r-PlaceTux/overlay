@@ -18,7 +18,7 @@ If the overlay looks blurry for you, use [this fix](https://greasyfork.org/scrip
 ### Contributing
 Overlay and script edits are accepted, but please do not modify the tux design unless it's incorrect. Open a [pull request](https://github.com/r-PlaceTux/overlay/compare) and we'll review it.
 
-## Colors
+## Color Palette
 `#BE0039` dark red\
 `#FF4500` red\
 `#FFA800` orange\
