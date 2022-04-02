@@ -5,7 +5,7 @@ A script to project the correct tux design on the [r/place canvas](https://new.r
 2. Install [the user script](https://greasyfork.org/scripts/442512/code/userscript.user.js)
 
 ### Note
-If the overlay looks blurry for you edit the script manually and replace `image-rendering: pixelated` with `image-rendering: crisp-edges`.
+If the overlay looks blurry for you, use [this fix](https://greasyfork.org/en/scripts/442555).
 
 ### Colors
 `#FF4500` red\
