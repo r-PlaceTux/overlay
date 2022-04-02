@@ -19,12 +19,12 @@ jobs:
         with:
           poetry-version: '1.1.12'
       - name: explode image
-        run: poetry run explode_overlay.py
+        run: poetry run ./Overlay/explode_overlay.py
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./Overlay/out/
+          publish_dir: ./out/
           keep_files: true
           full_commit_message: deploy image
