@@ -3,7 +3,7 @@ name: explode and deploy overlay image
 on:
   push:
     branches:
-      - wftest
+      - main
 
 jobs:
   docs:
