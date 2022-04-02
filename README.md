@@ -2,7 +2,7 @@ A script to project the correct tux design on the [r/place canvas](https://new.r
 
 ### Installation
 1. Install the Violentmonkey addon/extension for [Firefox](https://addons.mozilla.org/addon/violentmonkey) or [Chrome](https://chrome.google.com/webstore/detail/jinjaccalgkegednnccohejagnlnfdag)
-2. Install [the user script](https://greasyfork.org/scripts/442512-r-placetux-overlay/code/rPlaceTux%20Overlay.user.js)
+2. Install [the user script](https://greasyfork.org/scripts/442512/code/userscript.user.js)
 
 ### Colors
 `#FF4500` red\
