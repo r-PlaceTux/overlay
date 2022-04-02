@@ -13,7 +13,7 @@ We provide the overlay through a user script. For more information, check out th
 If the overlay looks blurry for you, use [this fix](https://greasyfork.org/scripts/442555).
 
 ### Contributing
-Overlay and script edits are accepted, but please do not modify the tux design unless it's incorrect. Open a [pull request](https://github.com/r-PlaceTux/Overlay/compare) and we'll review it.
+Overlay and script edits are accepted, but please do not modify the tux design unless it's incorrect. Open a [pull request](https://github.com/r-PlaceTux/overlay/compare) and we'll review it.
 
 ## Colors
 `#BE0039` dark red\
