@@ -1,4 +1,4 @@
-name: Build and deploy docs to GitHub Pages
+name: explode and deploy overlay image
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
         with:
-          python-version: ${{ matrix.python-version }}
+          python-version: '3.10'
       - name: Run image
         uses: abatilo/actions-poetry@v2.0.0
         with:
@@ -27,4 +27,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./Overlay/out/
           keep_files: true
-          full_commit_message: Publish documentation
+          full_commit_message: deploy image
