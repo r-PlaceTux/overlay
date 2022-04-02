@@ -4,7 +4,10 @@ import matplotlib.pyplot as plt
 import numpy
 import os
 
-os.mkdir("out")
+try:
+    os.mkdir("out")
+except FileExistsError:
+    pass
 
 p = plt.imread("overlay_unexploded.png")
 
