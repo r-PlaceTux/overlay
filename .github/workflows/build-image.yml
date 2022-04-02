@@ -1,0 +1,34 @@
+name: explode and deploy overlay image
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  docs:
+    if: github.repository == 'r-PlaceTux/Overlay'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          path: Overlay
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
+
+      - name: set up poetry image
+        uses: abatilo/actions-poetry@v2.0.0
+        with:
+          poetry-version: '1.1.12'
+      - name: explode image
+        run: poetry install && poetry run ./explode_overlay.py
+        working-directory: ./Overlay
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./Overlay/out/
+          keep_files: true
+          full_commit_message: deploy image
