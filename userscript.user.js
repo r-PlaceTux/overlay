@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         r/PlaceTux Overlay
 // @namespace    https://github.com/r-PlaceTux/Overlay
-// @version      1.0.4
+// @version      1.0.5
 // @description  FLOSS forever!
 // @author       r/PlaceTux
 // @match        https://hot-potato.reddit.com/embed*
