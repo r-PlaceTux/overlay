@@ -27,3 +27,5 @@ Overlay and script edits are accepted, but please do not modify the tux design u
 `#898D90` gray\
 `#D4D7D9` light gray\
 `#FFFFFF` white
+
+![coordinate guide](https://raw.githubusercontent.com/r-PlaceTux/place_tux/main/tuxcoords.png)
