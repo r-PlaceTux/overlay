@@ -10,7 +10,7 @@ We provide the overlay through a user script. For more information, check out th
 
 ## Notes
 ### Incorrect Overlay
-Perform a hard refresh by doing `CTRL` + `SHIFT` + `R`.
+Perform a hard refresh by doing `CTRL` + `SHIFT` + `R`. This will clear the cache for the site (will not affect cookies or other site data).
 
 ### Blurry Overlay
 If the overlay looks blurry for you, use [this fix](https://greasyfork.org/scripts/442555).
