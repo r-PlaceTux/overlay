@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         r/PlaceTux Overlay
 // @namespace    https://github.com/r-PlaceTux/Overlay
-// @version      1.0.6
+// @version      1.0.7
 // @description  FLOSS forever!
 // @author       r/PlaceTux
 // @match        https://hot-potato.reddit.com/embed*
@@ -17,11 +17,6 @@ if (window.top !== window.self) {
                 i.src = "https://r-placetux.github.io/overlay/overlay.png";
                 i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 1000px;height: 1000px;";
                 console.log(i);
-                
-                const j = document.createElement("img");
-					      j.src = "https://github.com/Atkion/placeCosmereOverlay/raw/master/template.png";
-					      j.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 1000px;";
-                console.log(j);
                 return i;
             })())
     }, false);
@@ -29,8 +24,8 @@ if (window.top !== window.self) {
         document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0].appendChild(
             (function () {
                 const j = document.createElement("img");
-					      j.src = "https://github.com/Atkion/placeCosmereOverlay/raw/master/template.png";
-					      j.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 1000px;";
+		j.src = "https://github.com/Atkion/placeCosmereOverlay/raw/master/template.png";
+		j.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 1000px;";
                 console.log(j);
                 return j;
             })())
