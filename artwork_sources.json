@@ -1,0 +1,27 @@
+[
+  {
+    "img_url": "https://raw.githubusercontent.com/r-PlaceTux/place_tux/main/GloriousOfficialFinal52x80FlatTux.png",
+    "x0": 20,
+    "y0": 679
+  },
+  {
+    "img_url": "artwork/Chatot.png",
+    "x0": 72,
+    "y0": 743
+  },
+  {
+    "img_url": "artwork/Croatia.png",
+    "x0": 71,
+    "y0": 716
+  },
+  {
+    "img_url": "artwork/MIT.png",
+    "x0": 0,
+    "y0": 687 
+  },
+  {
+    "img_url": "artwork/fancade.png",
+    "x0": 72,
+    "y0": 690	
+  }
+]
