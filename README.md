@@ -1,3 +1,11 @@
+# WE HAVE MOVED!
+## The overlay can now be found here: https://github.com/r-PlaceTux/place_tux/tree/main/overlay
+
+
+Old Readme:
+
+---
+
 A script to project the correct tux design on the [r/place canvas](https://new.reddit.com/r/place/).
 
 ## Installation
